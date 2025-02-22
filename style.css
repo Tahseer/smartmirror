@@ -1,0 +1,51 @@
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        background: url('https://i.pinimg.com/736x/7a/5e/8e/7a5e8efa4d7644e054fb4e4517c8bf00.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+       
+       
+    }
+
+    .container {
+        text-align: center;
+/*         padding-top: 200px; */
+        
+    }
+
+    .text-container {
+        display: inline-block;
+        position: relative;
+        font-size: 30px;
+        color: #fff;
+        overflow: hidden; /* Hide overflow to simulate typing effect */
+        white-space: nowrap; /* Ensure text stays on one line */
+    }
+
+    .typed-text {
+        display: inline-block;
+        white-space: nowrap; /* Ensure text stays on one line */
+        overflow: hidden; /* Hide overflow to simulate typing effect */
+        border-right: 2px solid #333; /* Border for cursor effect */
+    }
+
+    .cursor {
+        display: inline-block;
+        width: 2px;
+        background-color: #333;
+        margin-left: 2px;
+        animation: blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+        50% {
+            background-color: transparent;
+        }
+    }
